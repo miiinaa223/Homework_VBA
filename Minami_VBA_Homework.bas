@@ -152,7 +152,6 @@ Dim GreatestVolumeTicker As String
             ws.Range("O4") = GreatestDecreaseTicker
             
             ' Set width and Format
-            ws.Columns("K:K").Value = Format(PercentChange, "0.00%")
             ws.Columns("A:Q").AutoFit
             
     Next ws
